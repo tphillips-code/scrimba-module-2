@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-image: url("images/Kansas_City_Union_Station.jpg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 5px gray;
+}
+
+.main-titles {
+    background: linear-gradient(90deg, #007bba, #00a9e2, #007bba);
+    color: white;
+    text-shadow: 2px 2px 10px black;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 3px black;
+    margin: 10px;
+}
+
+#activities-section {
+    background: #ebebeb;
+    text-align: center;
+    height: 500px;
+}
+
+#act-title {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: #007bba;
+    text-shadow: 1px 1px 1px black;
+    font-size: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.act-images {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    box-shadow: 2px 3px 3px black;
+    transition: .3s;
+}
+
+.act-images:hover {
+    transform: scale(1.05);
+}
+
+.card-titles {
+    color: #007bba;
+}
+
+.card-summary {
+    margin: 30px 0;
+}
+
+#tour-guide-section {
+    height: 500px;
+    background-color: #00a9e2;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px -1px 5px gray;
+}
+
+#tour-guide-card {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    width: 50%;
+    height: 70%;
+    border-radius: 10px;
+    box-shadow: 2px 4px 15px black;
+}
+
+#profile-img {
+    width: 40%;
+    border-radius: 10px 0 0 10px;
+}
+
+#guide-card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 100px 30px 20px;
+    width: 30%;
+    font-size: large;
+    color: #0a2463;
+}
+
+
+
+
+
+
+
